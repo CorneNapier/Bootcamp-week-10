@@ -32,7 +32,8 @@ The text file must be saved in the same location as your Python file for the pro
 "Syntax :  varName = openMethod('pathtofolder/parthtofile/fileName.txt', 'w')"
 filePath1 = open('Day1/Pt7_FilesDictsCodeBase2024/file1.txt', 'w') # folder/folder/filename
 # write to file
-filePath1.write("Python Programming")
+contents = 'Today is Monday'
+filePath1.write(contents)
 # close the filepath and file/ releasing the resource
 filePath1.close()
 
