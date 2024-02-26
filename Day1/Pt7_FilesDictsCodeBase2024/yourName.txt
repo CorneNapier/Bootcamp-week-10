@@ -4,3 +4,9 @@ Corne Napier
  Exercising 
  Address: 
  London
+Hey there,
+Im coding using Python
+Whoop!
+I am enjoying this!
+Doing this using read, write method.
+It makes sense!
