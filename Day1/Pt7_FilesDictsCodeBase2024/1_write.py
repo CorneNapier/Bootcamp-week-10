@@ -30,10 +30,9 @@ The text file must be saved in the same location as your Python file for the pro
 
 "1_FileHandling_ReadWrite/myfile.txt","w"
 "Syntax :  varName = openMethod('pathtofolder/parthtofile/fileName.txt', 'w')"
-filePath1 = open('Day1/Pt7_FilesDictsCodeBase2024/file1.txt', 'w') # folder/folder/filename
+filePath1 = open('Day1/Pt7_FilesDictsCodeBase2024/yourName.txt', 'w') # folder/folder/filename
 # write to file
-contents = 'Today is Monday'
-filePath1.write(contents)
+filePath1.write('Corne Napier')
 # close the filepath and file/ releasing the resource
 filePath1.close()
 
