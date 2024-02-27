@@ -4,7 +4,6 @@ import logging
 # Understand and use the severity levels
 # Configure file path and use exception handling to write logs to file with different severity levels
 
-
 "read for 2 minutes"
 
 ''' Python Exception is represented in class hierarchy using built in or user define exception types
@@ -24,19 +23,22 @@ object of the class exception will be created when an exception is raised.
 
 #different logging methods and severity
 
-logging.basicConfig(level=logging.DEBUG) #comment to see what logging level will be displayed in the terminal
+logging.basicConfig() #comment to see what logging level will be displayed in the terminal
 logging.critical("Critical")
 logging.error("Error")
 logging.warning("Warning")
 logging.info("Info")
 logging.debug("Debug")
 
-
-
 "To Do: Modify"
 # Modify: 
-# Task 1. Change the level from level=logging.DEBUG to logging.INFO, run the code and explain the output from the terminal
-# Task 2. Remove the level=logging.DEBUG or level=logging.INFO, between the parenthesis of logging.basicConfig and run the code and explain the output from the terminal
+"Task 1. Change the level from level=logging.DEBUG to logging.INFO, run the code and explain the output from the terminal"
+#By setting the level to logging.INFO, it means that only events with a severity level of INFO or higher (such as WARNING, ERROR, CRITICAL) will be logged.
+#INFO:root:Info
+#no debug
 
 
-
+" Task 2. Remove the level=logging.DEBUG or level=logging.INFO, between the parenthesis of logging.basicConfig and run the code and explain the output from the terminal"
+#By default, if you don't specify the logging level, it will be set to WARNING. This means that only log messages with severity levels of WARNING, ERROR, and CRITICAL will be shown.
+#It doesnt display logging.info.
+#It doesnt display logging.debug
