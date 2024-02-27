@@ -20,9 +20,8 @@ print(userDetails1)
 "Extension"
 "Modify"
 "To Do: Task 1: write the input statement to add the remaining values to the userDetails1 dictionary above"
-userDetails1["address"] = input("Enter your address: ")
-userDetails1["interest"] = input("Enter your interest: ")
-userDetails1["age"] = int(input("Enter your age: "))
+for keyVal in userDetails1: #iterate or loop through all keys and values
+    userDetails1[keyVal] = input(f'Enter the value for {keyVal}: ') 
 print(userDetails1)
 
 # create a dictionary with no keys and no values
@@ -35,10 +34,18 @@ userDetails2 = {}
 print(userDetails2)
 
 members = {}
-members[1] = 'Cornelius'
-members[2] = 'Harry'
-members[3] = 'Sarah'
-members[4] = 'Eve'
-print(members)
+numOfKeyVal = int(input("Enter the number of key value pairs: "))
+keyValCount = 0 #counter for amount of key value pairs
 
+while True:
+    aKey = input('Enter key: ')
+    aValue = input(f'Enter the value for {aKey}: ')
+    members[aKey] = aValue
+    keyValCount += 1 #increment counter
+    
+    if keyValCount == numOfKeyVal:
+        break
+
+
+print(members)
 
