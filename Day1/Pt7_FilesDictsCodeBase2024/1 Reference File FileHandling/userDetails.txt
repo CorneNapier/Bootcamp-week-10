@@ -5,4 +5,8 @@ Gaming, Exercising, Coding
 Peter Parker
 New York
 Photography
-22
+22Key: Fullname, Value: Harry PotterKey: Address, Value: HogwartsKey: Interests, Value: MagicKey: Age, Value: 18
+Fullname: Lisa Smith
+Address: London
+Interests: Coding
+Age: 44

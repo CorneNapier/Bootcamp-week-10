@@ -1,0 +1,4 @@
+Fullname: Corne Napier
+Address: London
+Interests: Gaming, Exercising, Coding
+Age: 30
