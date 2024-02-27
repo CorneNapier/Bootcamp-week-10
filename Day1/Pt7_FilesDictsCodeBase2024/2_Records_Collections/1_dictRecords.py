@@ -55,28 +55,29 @@ for k, v in memberItems:
 
 # pop() method removes and returns the value associated with the specified key.
 # It takes a single argument which is the key to be removed.
-# dict2.pop(3)
-# print(dict2)
+dict2.pop('Module3')
+print(dict2)
 
 # popitem() method removes and returns an arbitrary (key, value) pair from the dictionary.
 # It doesn't take any arguments.
-# ?.popitem()
-# print(dict1)
+members.popitem()
+print(members)
 
 
 # "Delete key-value pair from dictionary:"
-# # We can delete a key-value pair from a dictionary using the del keyword followed
-# # by the key value to be deleted enclosed in [].
+# We can delete a key-value pair from a dictionary using the del keyword followed
+# by the key value to be deleted enclosed in [].
 
-# del dict1[2]
+del dict2['Module2']
+print(dict2)
 
 
 # # update dictionary value using the key
-# dict1[1] = "Emma Smith"
-# user={"interests" :"coding"}
+members[5] = "Emma Smith"
+user={"interests" :"coding"}
 
-# print(user)
-# user["interests"] = "Football"
+print(user)
+user["interests"] = "Football"
 
-# print(dict1)
-# print(user)
+print(members)
+print(user)
