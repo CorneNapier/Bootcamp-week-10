@@ -63,14 +63,12 @@ print(dict2)
 members.popitem()
 print(members)
 
-
 # "Delete key-value pair from dictionary:"
 # We can delete a key-value pair from a dictionary using the del keyword followed
 # by the key value to be deleted enclosed in [].
 
 del dict2['Module2']
 print(dict2)
-
 
 # # update dictionary value using the key
 members[5] = "Emma Smith"
