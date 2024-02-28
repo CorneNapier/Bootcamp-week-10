@@ -1,6 +1,7 @@
 import logging
 import time
 
+
   
 "To Do: Predict, then Run, and then Investigate"
 #different logging methods and severity
@@ -15,7 +16,7 @@ try:  # attempt to run the indented code block
 except ZeroDivisionError:  # handles exception if code in try block fails
     print("You can't divide a number by zero")
     logging.warning(f"On {time.asctime()}\nUser attempted to divide by zero")
-    logging.error("Cant divide by zero")
+    logging.error(f"On {time.asctime()}\nCant divide by zero")
 
 else:
     #Output for user/what the user see

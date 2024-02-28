@@ -11,3 +11,15 @@ Divided 5 / 5 = 1.0
 WARNING:root:On Wed Feb 28 09:36:50 2024
 User attempted to divide by zero
 ERROR:root:Cant divide by zero
+WARNING:root:On Wed Feb 28 09:47:44 2024
+User attempted to divide by zero
+ERROR:root:On Wed Feb 28 09:47:44 2024Cant divide by zero
+WARNING:root:On Wed Feb 28 09:48:10 2024
+User attempted to divide by zero
+ERROR:root:On Wed Feb 28 09:48:10 2024: Cant divide by zero
+WARNING:root:On Wed Feb 28 09:48:45 2024
+User attempted to divide by zero
+ERROR:root:On Wed Feb 28 09:48:45 2024
+Cant divide by zero
+DEBUG:root:On Wed Feb 28 09:49:06 2024
+Divided 5 / 2 = 2.5
