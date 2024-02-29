@@ -24,5 +24,7 @@ def insert_songs():
     
     except sql.Error as er:
         print(f"Failed because of Error: {er}")
-        
-insert_songs() # call the function
+
+if __name__ == "__main__": 
+    insert_songs() # call the function      
+ 

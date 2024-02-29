@@ -30,5 +30,7 @@ def update_song():
  
     except sql.Error as er:
          print(f"failed because Error:  {er}")
-         
-update_song()
+
+if __name__ == "__main__": 
+    update_song()        
+ 

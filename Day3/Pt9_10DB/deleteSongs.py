@@ -25,5 +25,7 @@ def delete_songs():
  
     except sql.Error as er:
          print(f"failed because Error:  {er}")    
-         
-delete_songs()
+
+if __name__ == "__main__":
+    delete_songs()       
+ 

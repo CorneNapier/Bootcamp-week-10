@@ -32,4 +32,5 @@ def read_songs():
     except sql.Error as er:
         print(f"Failed because of Error: {er}")
 
-read_songs()
+if __name__ == "__main__":
+    read_songs()
