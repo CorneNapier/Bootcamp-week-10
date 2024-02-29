@@ -30,7 +30,7 @@ def search_songs():
                     print(records)
         else:
             #where the field to search is not SongID or Title or Artist or Genre
-            print(f'Search field {field} invalid!!')
+            print(f'Search field {field} invalid!!\nPlease enter SongID or Title or Artist or Genre (Case Sensitive)')
     
     except sql.OperationalError as e:
         print(f"failed because:  {e}")
@@ -42,4 +42,3 @@ def search_songs():
          print(f"failed because Error:  {er}")
         
 search_songs()     
-      
