@@ -17,6 +17,7 @@ def read_songs():
         
           for aSong in allSongs:
                print(f'{aSong[0]:7} | {aSong[1]:30} | {aSong[2]:30} | {aSong[3]:20}')
+               print("-" * 100)
         
             
        else:
